@@ -45,5 +45,4 @@ This project demonstrates basic network packet capturing and protocol analysis u
 
 ---
 
-## 👨‍💻 Author
-Karthikdoss
+
