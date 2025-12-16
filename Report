@@ -1,0 +1,30 @@
+Wireshark Network Traffic Analysis Report 
+1. Title 
+
+Network Traffic Capture and Analysis Using Wireshark
+
+2. Objective 
+
+The objective of this experiment is to capture live network traffic using Wireshark, analyze different network protocols, apply protocol-based filters, and export the captured packets for further analysis.
+
+3. System Configuration Operating System: Windows 10 (Build 10240) Processor Architecture: 64-bit Tool Used: Wireshark 3.2.1 (64-bit) Packet Capture Driver: Npcap (WinPcap compatible mode) 4. Software Requirements Wireshark 3.2.1 Npcap (compatible with Windows 10 Build 10240) Internet connection (Wi‑Fi / Ethernet) 5. Procedure Step 1: Installation Downloaded Wireshark 3.2.1 (64-bit) from the official website. Installed Wireshark with default settings. Installed Npcap in WinPcap compatibility mode. Step 2: Starting Packet Capture Launched Wireshark application. Selected the active network interface (Wi‑Fi). Started packet capture by double-clicking the interface. Step 3: Generating Network Traffic Visited websites such as www.google.com. Used the command prompt to ping a server: ping google.com Step 4: Stopping Capture Captured packets for approximately one minute. Stopped the capture using the stop button. Step 5: Filtering Packets 
+
+Applied display filters to analyze specific protocols:
+
+dns tcp http 6. Observations 
+
+The following protocols were identified during packet analysis:
+
+DNS (Domain Name System) Used for resolving domain names to IP addresses. TCP (Transmission Control Protocol) Provides reliable, ordered, and error-checked delivery of data. HTTP (Hypertext Transfer Protocol) Used for web communication between client and server. 
+
+Packet details such as source IP address, destination IP address, protocol type, and packet length were observed.
+
+7. Result 
+
+Successfully captured live network traffic, filtered packets based on protocols, analyzed packet details, and exported the captured data as a .pcap file.
+
+8. Conclusion 
+
+This experiment provided hands-on experience with Wireshark for network traffic analysis. It helped in understanding how different protocols operate during normal network communication and how packet-level data can be captured and analyzed.
+
+9. Output File wireshark_capture.pcap
